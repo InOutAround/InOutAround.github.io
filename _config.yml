@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://InOutAroung.github.io/"
+url: "https://inoutaround.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
