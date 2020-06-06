@@ -1,11 +1,11 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://inoutaround.github.io/"
+url: "https://inoutaround.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: InOutAroung blog
+  title: InOutAround blog
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
@@ -22,11 +22,11 @@ theme_settings:
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "wkb1848@gmail.com"# Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: "www"
   flickr:
   gitlab:
   github: "rohanchandra/type-theme"
@@ -46,9 +46,10 @@ theme_settings:
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
-  katex: true # Enable if using math markup
+  disqus_shortname: "inoutaround"
+  katex: false # Enable if using math markup
   search: true # Enable the search feature
+  
 
   # Localization strings
   str_follow_on: "Follow on"
@@ -83,3 +84,4 @@ plugins: [jekyll-paginate]
 exclude:
   - Gemfile
   - Gemfile.lock
+
