@@ -1,11 +1,16 @@
 <div id="disqus_thread"></div>
 	<script type="text/javascript">
+		var disqus_developer = 1; // developer mode is on 
+		var disqus_config = function () {
+		this.page.url = '{{ page.url | absolute_url }}';
+		this.page.identifier = '{{ page.url | absolute_url }}';
+		};
 		var disqus_shortname = "{{ site.theme_settings.disqus_shortname }}";
 		(function() {
 		var d = document, s = d.createElement('script');
 		// infiduk 부분에 본인의 것을 쓰시면 됩니다.
 		s.src = 'https://' + disqus_shortname + ".disqus.com/embed.js";
-		s.setAttribute('data-timestamp', +new Date());
+		s.setAttribute('data-timestamp', + new Date());
 		(d.head || d.body).appendChild(s);
 	})();
 	</script>
