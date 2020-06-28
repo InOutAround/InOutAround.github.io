@@ -4,6 +4,26 @@
 
 {% if site.theme_settings.footer_text %}
 <footer class="site-footer">
-	<p class="text">{{ site.theme_settings.footer_text }}</p>
+	<address class="footer-wrap">
+		<div class="info">
+			<div class="myName">
+				Kyubok wi
+			</div>
+			<div class="email">
+				wkb1848@gmail.com
+			</div>
+			<div class="account">
+				<a href="https://github.com/InOutAround" tartget="_blank" class="transition"><i class="fa fa-github" aria-hidden="false"></i></a>
+				<a href="https://instagram.com/init_life" tartget="_blank" class="transition"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="https://github.com/InOutAround" tartget="_blank" class="transition"><i class="fa fa-github" aria-hidden="false"></i></a>
+			</div>
+		<div class="copyright">
+			<span>
+				&copy; {{ site.author.name }}. <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time>
+			</span>
+		</div>
+	</address>
+	<!-- <p class="text">{{ site.theme_settings.footer_text }}</p> -->
 </footer>
 {% endif %}
+

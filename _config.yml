@@ -2,6 +2,15 @@
 baseurl: ""
 url: "https://inoutaround.github.io"
 
+# about me
+author:
+  name:         kyubok Wi
+  url:          https://inoutaround.github.io
+  email:        wkb1848@gmail.com  
+  github:       inoutaround
+  instagram:    init_life 
+
+
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
@@ -9,7 +18,7 @@ theme_settings:
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "A website with blog posts and pages" # used by search engines 
 
   # Header and footer text
   header_text: >
@@ -70,6 +79,8 @@ theme_settings:
   # Post navigation
   post_navigation: false
 
+
+
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
@@ -80,7 +91,9 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate]
+plugins: 
+  - [jekyll-paginate]
+  - jemoji
 exclude:
   - Gemfile
   - Gemfile.lock

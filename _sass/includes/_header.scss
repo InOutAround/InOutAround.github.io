@@ -36,6 +36,7 @@
       text-align: right;
     }
     li {
+      font-size: 15px;
       display: inline;
       margin-right: 1em;
       vertical-align: middle;
@@ -96,7 +97,7 @@
   border-top: 1px solid $border-color;
   margin:auto;
   padding:0;
-  font-size:25px;
+  font-size:15px;
   text-align: center;
   clear:left;
   }
@@ -173,6 +174,7 @@
   margin:0px;
   padding:0px 10px 0px 15px;
   text-align:left;
+  font-size:15px;
   }
 
   .site-category li ul a:hover, .menubar li ul li:hover a{
@@ -182,3 +184,6 @@
   text-decoration:none;
   }
 
+.post-link{
+  font-size:40px;
+}

@@ -1,19 +1,19 @@
   
 <header class="site-header">
-	<div class="branding">
-		{% if site.theme_settings.gravatar %}
-		<a href="{{ site.baseurl }}/">
+	<!-- <div class="branding"> -->
+		<!-- {% if site.theme_settings.gravatar %} -->
+		<!-- <a href="{{ site.baseurl }}/">
 			<img class="avatar" src="https://secure.gravatar.com/avatar/{{ site.theme_settings.gravatar }}?s=100" alt=""/>
-		</a>
-		{% elsif site.theme_settings.avatar %}
-		<a href="{{ site.baseurl }}/">
+		</a> -->
+		<!-- {% elsif site.theme_settings.avatar %} -->
+		<!-- <a href="{{ site.baseurl }}/">
 			<img class="avatar" src="{{ site.baseurl }}/{{ site.theme_settings.avatar }}" alt=""/>
 		</a>
 		{% endif %}
 		<h1 class="site-title">
 			<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
 		</h1>
-	</div>
+	</div> -->
 	<nav class="site-nav">
 		<ul>
 			{% if site.theme_settings.site_navigation_sort %}
@@ -33,17 +33,17 @@
 			<!-- Social icons from Font Awesome, if enabled  -->
 			{% include icons.html %}
 
-            <!-- Search bar -->
-            {% if site.theme_settings.search %}
-            <li>
-            <form action="{{ site.baseurl }}/search.html" method="get">
-                <input type="text" id="search-box" name="query" placeholder="Search" class="">
-                <button type="submit" class="">
-                    <i class="fa fa-fw fa-search"></i>
-                </button>
-            </form>
-            </li>
-            {% endif %}
+      <!-- Search bar
+      {% if site.theme_settings.search %}
+      <li>
+        <form action="{{ site.baseurl }}/search.html" method="get">
+            <input type="text" id="search-box" name="query" placeholder="Search" class="search" style="text-align: center;">
+            <button type="submit" class="submit">
+                <i class="fa fa-fw fa-search"></i>
+            </button>
+        </form>
+      </li>
+      {% endif %} -->
 		</ul>
 	</nav>
 
@@ -77,7 +77,7 @@
         </ul>
       </li>
 
-      <li><a href="/">Android</a>
+      <li><a href="/">Project</a>
         <ul>
           <li><a href="/Android/Android">Android</a></li>
         </ul>
