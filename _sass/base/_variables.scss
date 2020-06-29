@@ -1,6 +1,9 @@
 // Typography
-$font-family-main: 'Nanum Gothic', Helvetica, Arial, sans-serif !default;
+$font-family-main: 'Nanum Gothic', "Source Sans Pro", Helvetica, Arial, sans-serif !default;
+$font-family-eng: "Source Sans Pro", sans-serif !default;
 $font-family-headings: 'Nanum Gothic', Helvetica, Arial, sans-serif !default;
+$san-serif: "Source Sans Pro", "APPLE SD Gothic Neo", HelveticaNeue, Helvetica, "NanumGothic", "맑은 고딕", "Malgun Gothic", arial, sans-serif;
+$serif: "Nanum Myeongjo",sans-serif;
 $font-size: 1.10em !default;
 
 // Padding
@@ -15,7 +18,8 @@ $border-color: rgba(0, 0, 0, 0.1) !default; // rgba recommended if using feature
 
 // Typography colours
 $text-color: #383838 !default;
-$link-color: #1ABC9C !default;
+// $link-color: #1ABC9C !default;
+$link-color: #433E9A !default;
 $selection-color: #D4D4D4 !default; // visible when highlighting text
 
 // Tags color
@@ -35,3 +39,27 @@ $feature-image-size: cover !default; // options include "cover", "contain", "aut
 $header-desc-background-color: #1ABC9C !default;
 $header-desc-text-color: #FFF !default;
 $header-desc-link-color: #02453D !default;
+
+
+// color 정의
+$default-tint: #8898aa;
+$grey-0: #333e4c;
+$grey-0-80: rgba(51, 62, 76, .8);
+$grey-1: #90949a;
+$grey-2: #D8E0E7;
+$grey-2-70: rgba(216, 224, 231, .7);
+$grey-3: #f6f9fc;
+$grey-4: #ebeff2;
+$grey-5: #c1cad4;
+$grey-6: #b3bcc4;
+$white: #fff;
+$yellow: #FEE85A;
+$shadow-color: rgba(0, 0, 0, .2);
+$ridi-blue: #1f8ce6;
+$ridi-skyblue: #66baff;
+$purple: #8565fc;
+$light-purple: #997EFA;
+
+// media
+$break-medium: 900px;
+$break-small: 670px;

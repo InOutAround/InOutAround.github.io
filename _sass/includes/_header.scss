@@ -1,5 +1,6 @@
 .site-header {
   @extend %padding-small;
+  font-family: $font-family-eng;
   background: $brand-color;
   border-bottom: 1px solid $border-color;
   display: inline-block;
@@ -95,6 +96,7 @@
 .site-category{
   background: $brand-color;
   border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
   margin:auto;
   padding:0;
   font-size:15px;
@@ -127,6 +129,7 @@
   padding:0px 25px;
   text-align:center;
   text-decoration:none;
+  font-size: 15px;
   }
 
   .site-category li a:hover{
@@ -169,12 +172,11 @@
   .site-category li ul a{
   display:block;
   height:50px;
-  font-size:20px;
+  font-size:12px;
   font-style:normal;
   margin:0px;
   padding:0px 10px 0px 15px;
   text-align:left;
-  font-size:15px;
   }
 
   .site-category li ul a:hover, .menubar li ul li:hover a{
@@ -186,4 +188,17 @@
 
 .post-link{
   font-size:40px;
+}
+
+.post-type {
+  color: #8565FC;
+  font-size: 18px;
+  font-family: $font-family-main;
+  font-weight: 600;
+}
+
+
+
+article header{
+  text-align: center;
 }

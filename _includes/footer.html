@@ -1,29 +1,31 @@
-{% if site.theme_settings.katex and page.id %}
-<script src="{{ "/assets/js/katex_init.js" | relative_url }}"></script>
-{% endif %}
+<!-- {% if site.theme_settings.katex and page.id %}
+<script src="{{ '/assets/js/katex_init.js' | relative_url }}"></script>
+{% endif %} -->
 
-{% if site.theme_settings.footer_text %}
-<footer class="site-footer">
-	<address class="footer-wrap">
-		<div class="info">
-			<div class="myName">
-				Kyubok wi
-			</div>
-			<div class="email">
-				wkb1848@gmail.com
-			</div>
-			<div class="account">
-				<a href="https://github.com/InOutAround" tartget="_blank" class="transition"><i class="fa fa-github" aria-hidden="false"></i></a>
-				<a href="https://instagram.com/init_life" tartget="_blank" class="transition"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-				<a href="https://github.com/InOutAround" tartget="_blank" class="transition"><i class="fa fa-github" aria-hidden="false"></i></a>
+<!-- {% if site.theme_settings.footer_text %} -->
+<!-- <footer class="site-footer"> -->
+<footer>
+	<div class="footer-wrap">
+		<div class="infomation">
+			<div class="accounts">
+				<!-- {% include icons.html %} -->
+				<a href="https://github.com/InOutAround" tartget="_blank" class="transition"><i class="fab fa-fw fa-github" ></i></a>
+				<a href="https://instagram.com/init_life" tartget="_blank" class="transition"><i class="fab fa-fw fa-instagram" ></i></a>
+				<a href="wkb1848@gmail.com" tartget="_blank" class="transition"><i class="fas fa-fw fa-envelope" ></i></a>
 			</div>
 		<div class="copyright">
 			<span>
 				&copy; {{ site.author.name }}. <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time>
 			</span>
+			<br>
+			<span>
+			{% if site.theme_settings.footer_text %}
+				{{site.theme_settings.footer_text}}
+			</span>
+			{% endif %}
 		</div>
-	</address>
+	</div>
 	<!-- <p class="text">{{ site.theme_settings.footer_text }}</p> -->
 </footer>
-{% endif %}
+<!-- {% endif %} -->
 

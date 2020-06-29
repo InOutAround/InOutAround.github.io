@@ -1,17 +1,9 @@
-.site-footer {
-  @extend %padding-regular;
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  color: lighten($text-color, 30%);
-  font-size: 0.9em;
-}
 
 footer {
-  font-family: "Source Sans Pro",sans-serif;
+  font-family: $font-family-eng;
+  text-align: center;
   padding: 36px 0 46px 0;
-  background-color: #f6f9fc;
-  color: #8898aa;
-  border-top: 1px solid #D8E0E7;
-  border-bottom: 1px solid #D8E0E7;
+  color: $default-tint;
+  border-top: 1px solid $grey-2;
+  border-bottom: 1px solid $grey-2;
 }

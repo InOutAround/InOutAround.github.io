@@ -55,3 +55,46 @@ header {
     @extend %padding-regular;
   }
 }
+
+.posts {
+  .post-title{
+
+  	display: inline-block;
+  	width: 100%;
+  	background-size: cover;
+  	font-size: 2em;
+  	text-align: center;
+  	color: #B0B0B0;
+  }
+  .post-teaser {
+
+    @extend %padding-regular;
+    width: 100%;
+    padding: 35px 30% 35px 30%;
+    display: inline-block;
+    border-bottom: 1px solid $border-color;
+    text-align: justify;
+  }
+}
+// Pagination
+.pagination .button {
+  i {
+    vertical-align: middle;
+  }
+}
+.pagination {
+  text-align: center;
+  @media (max-width: 600px) {
+    padding: $padding-small;
+  }
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
