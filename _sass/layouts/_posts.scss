@@ -1,13 +1,20 @@
 .post-content > :last-child {
   margin-bottom: 0;
 }
+
+
 article,
-.comments {
-  @extend %padding-regular;
+.comments, footer, post-nav  {
+  // @extend %padding-regular;
   border-bottom: 1px solid $border-color;
-  float: left;
-  width: 100%;
+  // float: left;
+  // width: 100%;
+  // margin: auto;
+  margin: 0 auto;
+  max-width: 750px;
+  width: 80%;
 }
+
 article {
   .subtitle {
     font-size: 1.45em;
@@ -98,3 +105,39 @@ h2 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
+
+.post-type-tag {
+  margin: 40px 0;
+}
+
+.post-type{
+  color: #8565fc;
+  font-size: 18px;
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight: 600;
+}
+
+article header .title{
+  padding: 0 0 12px 0;
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Source Sans Pro","APPLE SD Gothic Neo",HelveticaNeue,Helvetica,"NanumGothic","맑은 고딕","Malgun Gothic",arial,sans-serif;
+  line-height: 1.2;
+  letter-spacing: -0.009em;
+}
+
+article header .subtitle{
+  padding: 0 0 10px 0;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+article header .meta{
+  padding: 0 0 50px 0;
+  font-weight: 400;
+  font-size: 20px;
+  color: #90949a;
+  line-height: 1.5;
+}
+

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "test"
-subtitle: "test"
 type: "Development"
 categories: [Python/Algo]
 text: true

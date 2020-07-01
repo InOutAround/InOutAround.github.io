@@ -1,0 +1,12 @@
+.selfie{
+    padding-top:200px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .selfie a img{
+    width: 150px; height: 150px;
+    object-fit: cover;
+    object-position: center;
+    
+  }
