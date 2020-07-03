@@ -4,7 +4,7 @@ title:  "test"
 type: "Development"
 categories: [Python/Algo]
 text: true
-author: "Jihye Leee"
+author: "InOutAround"
 post-header: true
 ---
 

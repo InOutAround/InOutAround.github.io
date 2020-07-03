@@ -1,6 +1,14 @@
 // Header text feature
 .call-out {
   @extend %padding-regular;
+  @keyframes moving{
+    0%{
+      opacity: 0.1;
+    }
+    100%{
+      opacity:1;
+    }
+  }
   display: inline-block;
   width: 100%;
   background-color:$header-desc-background-color;
@@ -8,6 +16,10 @@
   font-size: 1.2em;
   text-align: center;
   color: $header-desc-text-color;
+  padding:auto;
+  animation-name: moving;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
 }
 .call-out p:last-child {
   margin-bottom: 0;
